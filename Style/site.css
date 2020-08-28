@@ -1,0 +1,30 @@
+     body{background-image: url('../images/NYC-background.jpg')}
+     main{  margin: auto;
+            width: 80%;
+            background-color: white;
+            box-shadow: 5px 5px 5px #888888;
+            padding: 30px;
+            opacity: .9}
+     header{text-align: center;
+            font-size: 30pt;
+            color: black;
+            font-family: Arial;
+	    font-style: italic;
+	    font-weight: bold;}
+    p{font-family: Arial;
+      font-size: 11pt;
+      text-align: justify;}
+    nav{text-align: center;}
+    li{ display: inline;
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 10px}
+    footer{font-family: Arial;
+        font-size: 9pt;}        
+    a{text-decoration: none;
+      font-family: Arial;
+      font-weight: bold;
+      color: black;
+      padding: 5px}
+    a:hover{background-color: #c2b280}
+    .u{text-decoration: underline;}

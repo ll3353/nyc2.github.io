@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>  
+<head> 
+  	<title>The Five Boroughs of New York City</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" />
+    <link href="Style/site.css" rel="stylesheet" />
+  	<style type="text/css">
+    .b{ float: right; 
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 210px;
+        height: 270px;}
+    iframe{width: 100%}
+    #vid{display: none;}
+    #flip{margin:0px;
+          padding:5px;
+          text-align:center;
+          background:#ccc;
+          border:solid 1px #c3c3c3;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script type="text/javascript">
+    /*
+      var i = 2;
+      var j = 2;
+      var rtn = i+j
+      alert('2+2 = ' + rtn);
+    */
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#vid").slideToggle("slow");
+      });
+    });
+    </script>
+</head> 
+<body> 
+  <main>
+    <header>The Five Boroughs of New York City</header>
+    <hr / color="black">
+    <nav>
+      <ul>
+      	<li><a class="u">Home</a></li>
+        <li><a href="Manhattan.html">Manhattan</a></li>
+        <li><a href="Brooklyn.html">Brooklyn</a></li>
+      	<li><a href="Queens.html">Queens</a></li>
+      	<li><a href="The Bronx.html">The Bronx</a></li>
+      	<li><a href="Staten Island.html">Staten Island</a></li>
+      </ul>
+    </nav>
+    <hr / color="black">
+    <article>
+    	<p><img src="images/NYC-home.jpg" class="b"/>Situated on one of the world's largest natural harbors, New York City consists of five boroughs, each of which is a separate county of New York State. The five boroughs – Manhattan, Brooklyn, Queens, The Bronx, and Staten Island – were consolidated into a single city in 1898.</p>
+    	<p>The City of New York is the most populous city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area. New York City exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. New York is an important center for international diplomacy and has been described as the cultural and financial capital of the world.</p>
+    	<p>The city and its metropolitan area constitute the premier gateway for legal immigration to the United States, and as many as 800 languages are spoken in New York, making it the most linguistically diverse city in the world.</p>
+    	<p>Many districts and landmarks in New York City have become well known, and the city received a record of nearly 60 million tourists in 2015, hosting three of the world's ten most visited tourist attractions in 2013.Several sources have ranked New York the most photographed city in the world. Times Square, iconic as the world's "heart" and its "Crossroads", is the brightly illuminated hub of the Broadway Theater District, one of the world's busiest pedestrian intersections, and a major center of the world's entertainment industry. The names of many of the city's bridges, tapered skyscrapers, and parks are known around the world.</p>
+      <div id="vid">
+      <iframe width="854" height="480" src="https://www.youtube.com/embed/4dNaSH2N3Ww" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p id="flip">Video</p>
+    </article>
+    <hr / color="black">
+  </main>
+</body>
+</html>
